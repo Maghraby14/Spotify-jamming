@@ -1,0 +1,13 @@
+.list-group{
+    background-color: #191414;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    font-family: cursive;
+    flex-flow: column;
+    width: 90%;
+    margin-left: 8%;
+    padding-left: 0px;
+    height: 800px;
+    overflow-y: scroll;
+}
