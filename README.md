@@ -49,13 +49,13 @@ Spotify Jamming is a web application built with React that allows users to searc
 ## Screenshots
 
 ### Search and Add Songs
-<img src="1.png" alt="Search and Add Songs" width="500px">
+<img src="1.png" alt="Search and Add Songs" width="800px">
 
 ### Save Playlist to Spotify
-<img src="2.png" alt="Save Playlist to Spotify" width="500px">
+<img src="2.png" alt="Save Playlist to Spotify" width="800px">
 
 ### Spotiffy Account Update
-<img src="3.png" alt="Playlist Management" width="500px">
+<img src="3.png" alt="Playlist Management" width="800px">
 
 
 
