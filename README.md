@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Spotify Jamming - React Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Spotify Jamming is a web application built with React that allows users to search for songs, create custom playlists, and save them directly to their Spotify account. The application uses the Spotify API to fetch song data and manage playlists.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Search Songs**: Users can enter a song name to search for songs using the Spotify API.
+- **Add to Playlist**: Users can add songs to a playlist by clicking the `+` button next to each song.
+- **Remove from Playlist**: Users can remove songs from the playlist by clicking the `-` button next to each song.
+- **Save Playlist**: Users can enter a playlist name and save the playlist to their Spotify account by clicking the `Save To Spotify` button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How It Works
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Search for Songs**:
+   - Enter the name of the song in the search bar.
+   - Click the search button to fetch song results from Spotify.
+2. **Add Songs to Playlist**:
+   - Click the `+` button next to a song to add it to the playlist.
+3. **Remove Songs from Playlist**:
+   - Click the `-` button next to a song to remove it from the playlist.
+4. **Save Playlist to Spotify**:
+   - Enter a name for your playlist.
+   - Click the `Save To Spotify` button to save the playlist to your Spotify account.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Maghraby14/spotify-jamming.git
+2. **Navigate to Project Directory :**
+   ```bash
+   cd spotify-jamming
 
-### `npm run build`
+3. **Install Dependencies:**
+   ```bash
+   npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Start Application:**
+   ```bash
+   npm start
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: JavaScript library for building user interfaces.
+- **Spotify API**: Used to fetch song data and manage playlists.
+- **Fetch API**: Native web API for making HTTP requests.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
 
-### `npm run eject`
+### Search and Add Songs
+<img src="1.png" alt="Search and Add Songs" width="500px">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Save Playlist to Spotify
+<img src="2.png" alt="Save Playlist to Spotify" width="500px">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Spotiffy Account Update
+<img src="3.png" alt="Playlist Management" width="500px">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contributors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Mohamed El-Maghraby** (Project Lead & Developer)
